@@ -1,5 +1,71 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+ td {
+  padding: 5px 5px;
+}
+.index {
+  margin-bottom: 20px;
+}
+.show-p {
+  margin: 40px 0  40px 70px;
+}
+.show-link {
+  margin-left: 50px;
+}
+.edi-container {
+  margin: 30px 0 0 35px;
+}
+.edi-submit {
+  margin-top: 10px;
+}
+.edi-h4 {
+  margin-top: 10px;
+}
+.edi-link {
+  margin-top: 8px;
+}
+.top-container {
+  margin: 40px 0 0 40px;
+}
+.top-content {
+  margin: 20px 0 30px 30px;
+}
+.top-p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.flash {
+  color: green;
+  margin: 30px 0 0 70px;
+}
+.errors-title {
+  padding: 5px 0 5px 20px;
+  background-color: #c00;
+  color: #fff;
+}
+.errors-content {
+  margin: 30px;
+  padding-left: 40px;
+}
+.errors-wrap {
+  border: 2px solid red;
+  width: 450px;
+  margin: 20px 0 ;
+  background-color: #f0f0f0;
+}
+strong {
+  font-weight: bold
+}
+ /* This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
